@@ -2,26 +2,56 @@
 
 html {
     scroll-behavior: smooth;
+    --backgroundWhite: #FFFFFF;
+    --borderColorGrey: #AAB8BF;
+    --empowerButtonColor: #7A858A;
+    --backgroundPink: #ECEAF8;
     --basicColored: #6157AB;
+    --h2Color: #333333;
+    --h4Color: #574D9C;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
+    font-family: Roboto;
+}
+
+.nav a {
+    color: #636769;
+    text-decoration: none;
 }
 
 .container {
     width: 1200px;
     margin: 0 auto;
-    background: #000000;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 84px;
+    color: #636769;
+}
+
+.nav>ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 68px;
 }
 
 .main {
     position: relative;
-    height: 743px;
-    background: gold;
+    padding: 13px 0 0 60px;
+}
+
+.main-group {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 
 .main-img {
@@ -31,52 +61,40 @@ html {
 }
 
 .main-title {
-    width: 616px;
-    height: 212px;
-    font-family: Roboto;
+    max-width: 616px;
     font-weight: 400;
-    font-style: Regular;
     font-size: 64px;
-    line-height: 70.4px;
     letter-spacing: 1px;
+    color: #363B3D;
 }
 
 .main-text {
-    width: 599px;
-    height: 68px;
-    font-family: Roboto;
+    max-width: 599px;
     font-weight: 400;
-    font-style: Regular;
     font-size: 20px;
-    line-height: 34px;
     letter-spacing: 0.05px;
+    color: #636769;
 }
 
 .main-buttons {
-    width: 220px;
-}
-
-.main-buttons {
-    width: 220px;
     display: flex;
+    gap: 24px;
 }
 
 .main-button {
     width: 158px;
     height: 54px;
     border-radius: 5px;
-    font-family: Roboto;
     font-weight: 400;
-    font-style: Regular;
     font-size: 18px;
-    line-height: 30px;
     letter-spacing: 0.5px;
     text-transform: capitalize;
     border: none;
+    color: #FFFFFF;
+    padding: 12px 24px;
 }
 
 .colored {
-    border: none;
     background: var(--basicColored);
 }
 
@@ -97,4 +115,256 @@ html {
     width: 93px;
     height: 1px;
     background: var(--basicColored);
+}
+
+.companies {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+.companies-title {
+    color: #96979A;
+    display: flex;
+    margin-top: 119px;
+}
+
+.companies-imgs {
+    display: flex;
+    align-items: center;
+}
+
+.empower {
+    background: #F5F4F2;
+    padding: 72px 60px 0 60px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.h2 {
+    font-size: 52px;
+    font-weight: 400;
+    color: var(--h2Color);
+}
+
+.empower-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    margin: 47px 0 55px 0;
+}
+
+.empower-button {
+    height: 60px;
+    padding: 15px 25px;
+    background: var(--backgroundWhite);
+    border: 1px solid var(--borderColorGrey);
+    border-radius: 6.8px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+    color: var(--empowerButtonColor);
+}
+
+.empower-button-colored {
+    background: var(--backgroundPink);
+    border: 1px solid var(--basicColored);
+    color: var(--basicColored);
+}
+
+.buyers-agents {
+    padding: 74px;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    background: var(--backgroundWhite);
+}
+
+.buyers-agents-rows {
+    display: flex;
+    flex-direction: row;
+    gap: 85px;
+}
+
+.buyers-agents-row {
+    border-top: 1px solid #C9D3D9;
+}
+
+.buyers-agents {
+    display: flex;
+    flex-direction: column;
+}
+
+.h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 97px;
+    margin-top: 33px;
+    letter-spacing: 2.32px;
+    color: var(--h4Color);
+}
+
+.h3 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    color: #363B3D;
+
+}
+
+.p {
+    font-size: 21px;
+    font-weight: 400;
+    color: #636769;
+    margin-top: 32px;
+}
+
+.buyers-button {
+    width: 223px;
+    height: 54px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    border: none;
+    color: #FFFFFF;
+    margin: 42px 0;
+}
+
+.icons {
+    display: flex;
+}
+
+.empower-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+
+.empower-icons-column {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--h4Color);
+}
+
+.icon-text {
+    color: var(--basicColored);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.company {
+    background: #F5F4F2;
+    padding: 0 60px;
+}
+
+.company>div {
+    background: #E3E6F9;
+    padding: 72px 63px;
+}
+
+.company h2 {
+    margin-bottom: 72px;
+}
+
+.company-flex {
+    display: flex;
+    gap: 41px;
+}
+
+.company-p {
+    font-size: 26px;
+    font-weight: 400;
+    color: #1E2224;
+    text-align: center;
+    line-height: 44px;
+}
+
+.personnel {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding: 11px 0 46px 0;
+}
+
+.personnels {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.company-creator {
+    font-size: 11px;
+    font-weight: 400;
+    color: #636769;
+    letter-spacing: 2px;
+}
+
+.company-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #636769;
+}
+
+.company-row {
+    border-top: 1px solid #C9C9C9;
+}
+
+.reliable {
+    font-size: 18px;
+    font-weight: 400;
+    color: #363B3D;
+    text-align: center;
+    margin: 44px 0;
+}
+
+.company-button {
+    width: 148px;
+    height: 56px;
+    border-radius: 5px;
+    border-width: 1px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    border-color: #574D9C;
+    background: #FFFFFF;
+    color: #574D9C;
+    margin: 28px 0;
+}
+
+.line {
+    width: 100%;
+    border-color: #B2A9EF;
+}
+
+.text-number {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 121px;
+}
+
+.homes {
+    font-size: 68px;
+    font-weight: 400;
+    color: #323A5B;
 }
