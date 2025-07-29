@@ -1,0 +1,270 @@
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        padding: 32px 15px;
+        overflow: hidden;
+    }
+
+    .nav {
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        padding: 10px 0;
+    }
+
+    .main {
+        padding: 20px 0;
+    }
+
+    .main-group {
+        align-items: center;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .main-title {
+        font-size: 32px;
+        line-height: 1.2;
+        max-width: 100%;
+    }
+
+    .main-text {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .main-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .main-img {
+        max-width: 250px;
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .companies-imgs {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .companies-title {
+        justify-content: center;
+    }
+
+    .empower {
+        padding: 40px 15px 0 15px;
+    }
+
+    .h2 {
+        font-size: 32px;
+    }
+
+    .empower-buttons {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .empower-button {
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+
+    .dog-png {
+        max-width: 250px;
+    }
+
+    .buyers-agents-rows {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .buyers-png {
+        width: 100%;
+        height: auto;
+        margin-right: 50px;
+    }
+
+    .buyers-agents {
+        padding: 40px 20px;
+    }
+
+    .h3 {
+        font-size: 24px;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+    .buyers-button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .empower-icons {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .company {
+        padding: 0 15px;
+    }
+
+    .company>div {
+        padding: 40px 20px;
+    }
+
+    .company-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .company-p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .personnel {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .reliable {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .company-button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .homes {
+        font-size: 36px;
+    }
+
+    .text-number {
+        gap: 40px;
+    }
+}
+
+ @media screen and (max-width: 1440px) {
+  .container {
+    width: 1140px;
+    padding: 0 20px;
+  }
+
+  .nav > ul {
+    gap: 50px;
+  }
+
+  .main {
+    padding-left: 40px;
+  }
+
+  .main-title {
+    font-size: 56px;
+    max-width: 560px;
+  }
+
+  .main-text {
+    font-size: 18px;
+    max-width: 520px;
+  }
+
+  .main-img {
+    right: 30px;
+    width: 480px;
+  }
+
+  .main-buttons {
+    gap: 20px;
+  }
+
+  .companies-title {
+    margin-top: 80px;
+  }
+
+  .empower {
+    padding: 60px 40px 0 40px;
+  }
+
+  .h2 {
+    font-size: 44px;
+  }
+
+  .empower-buttons {
+    gap: 20px;
+    margin: 35px 0 40px 0;
+  }
+
+  .buyers-agents {
+    padding: 60px;
+  }
+
+  .buyers-agents-rows {
+    gap: 60px;
+  }
+
+  .h3 {
+    font-size: 36px;
+  }
+
+  .p {
+    font-size: 19px;
+  }
+
+  .buyers-button {
+    width: 200px;
+    height: 48px;
+    font-size: 16px;
+  }
+
+  .empower-icons {
+    margin-top: 50px;
+    gap: 40px;
+  }
+
+  .company {
+    padding: 0 40px;
+  }
+
+  .company > div {
+    padding: 60px 40px;
+  }
+
+  .company-p {
+    font-size: 22px;
+  }
+
+  .homes {
+    font-size: 56px;
+  }
+
+  .company-flex {
+    gap: 30px;
+  }
+}
