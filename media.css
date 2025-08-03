@@ -1,183 +1,184 @@
 @media screen and (max-width: 768px) {
 
-    .container {
-        width: 100%;
-        padding: 32px 15px;
-        overflow: hidden;
-    }
+  .container {
+    width: 100%;
+    padding: 32px 15px;
+    overflow: hidden;
+  }
 
-    .nav {
-        justify-content: center;
-        padding: 20px;
-    }
+  .nav {
+    justify-content: center;
+    padding: 20px;
+  }
 
-    .nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-        flex-wrap: wrap;
-        padding: 10px 0;
-    }
+  .nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
 
-    .main {
-        padding: 20px 0;
-    }
+  .main {
+    padding: 20px 0;
+  }
 
-    .main-group {
-        align-items: center;
-        text-align: center;
-        padding: 0 10px;
-    }
+  .main-group {
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+  }
 
-    .main-title {
-        font-size: 32px;
-        line-height: 1.2;
-        max-width: 100%;
-    }
+  .main-title {
+    font-size: 32px;
+    line-height: 1.2;
+    max-width: 100%;
+  }
 
-    .main-text {
-        font-size: 16px;
-        max-width: 100%;
-    }
+  .main-text {
+    font-size: 16px;
+    max-width: 100%;
+  }
 
-    .main-buttons {
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-    }
+  .main-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
 
-    .main-img {
-        max-width: 250px;
-        position: static;
-        width: 100%;
-        height: auto;
-        margin-top: 20px;
-    }
+  .main-img {
+    max-width: 250px;
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
 
-    .companies-imgs {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
+  .companies-imgs {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
 
-    .companies-title {
-        justify-content: center;
-    }
+  .companies-title {
+    justify-content: center;
+  }
 
-    .empower {
-        padding: 40px 15px 0 15px;
-    }
+  .empower {
+    padding: 40px 15px 0 15px;
+  }
 
-    .h2 {
-        font-size: 32px;
-    }
+  .h2 {
+    font-size: 32px;
+  }
 
-    .empower-buttons {
-        flex-wrap: wrap;
-        gap: 15px;
-    }
+  .empower-buttons {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
 
-    .empower-button {
-        font-size: 13px;
-        padding: 10px 15px;
-    }
+  .empower-button {
+    font-size: 13px;
+    padding: 10px 15px;
+  }
 
-    .dog-png {
-        max-width: 250px;
-    }
+  .dog-png {
+    max-width: 250px;
+  }
 
-    .buyers-agents-rows {
-        flex-direction: column;
-        gap: 30px;
-    }
+  .buyers-agents-rows {
+    flex-direction: column;
+    gap: 30px;
+  }
 
-    .buyers-png {
-        width: 100%;
-        height: auto;
-        margin-right: 50px;
-    }
+  .buyers-png {
+    width: 100%;
+    height: auto;
+    margin-right: 50px;
+  }
 
-    .buyers-agents {
-        padding: 40px 20px;
-    }
 
-    .h3 {
-        font-size: 24px;
-    }
+  .buyers-agents {
+    padding: 40px 20px;
+  }
 
-    .p {
-        font-size: 16px;
-    }
+  .h3 {
+    font-size: 24px;
+  }
 
-    .buyers-button {
-        width: 100%;
-        font-size: 16px;
-    }
+  .p {
+    font-size: 16px;
+  }
 
-    .empower-icons {
-        flex-direction: column;
-        gap: 30px;
-        align-items: center;
-    }
+  .buyers-button {
+    width: 100%;
+    font-size: 16px;
+  }
 
-    .icon {
-        width: 60px;
-        height: 60px;
-    }
+  .empower-icons {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
 
-    .company {
-        padding: 0 15px;
-    }
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
 
-    .company>div {
-        padding: 40px 20px;
-    }
+  .company {
+    padding: 0 15px;
+  }
 
-    .company-flex {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
+  .company>div {
+    padding: 40px 20px;
+  }
 
-    .company-p {
-        font-size: 18px;
-        line-height: 30px;
-    }
+  .company-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
 
-    .personnel {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  .company-p {
+    font-size: 18px;
+    line-height: 30px;
+  }
 
-    .reliable {
-        font-size: 16px;
-        margin-top: 20px;
-    }
+  .personnel {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    .company-button {
-        width: 100%;
-        font-size: 16px;
-    }
+  .reliable {
+    font-size: 16px;
+    margin-top: 20px;
+  }
 
-    .homes {
-        font-size: 36px;
-    }
+  .company-button {
+    width: 100%;
+    font-size: 16px;
+  }
 
-    .text-number {
-        gap: 40px;
-    }
+  .homes {
+    font-size: 36px;
+  }
+
+  .text-number {
+    gap: 40px;
+  }
 }
 
- @media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .container {
     width: 1140px;
     padding: 0 20px;
   }
 
-  .nav > ul {
+  .nav>ul {
     gap: 50px;
   }
 
@@ -252,7 +253,7 @@
     padding: 0 40px;
   }
 
-  .company > div {
+  .company>div {
     padding: 60px 40px;
   }
 

@@ -14,7 +14,6 @@ html {
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Roboto;
 }
 
@@ -185,6 +184,8 @@ html {
 body {
     position: relative;
     height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 .container {
@@ -192,6 +193,7 @@ body {
     width: 1200px;
     margin: 0 auto;
 }
+
 
 .nav {
     display: flex;
@@ -297,6 +299,177 @@ body {
 .companies-imgs {
     display: flex;
     align-items: center;
+}
+
+
+.clock {
+    font-size: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(fone.png);
+    border: 10px solid var(--basicColored);
+    margin: 100px;
+    box-shadow: 1px 1px 3px var(--basicColored);
+}
+
+.number,
+.point {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    font-size: 3em;
+    color: var(--basicColored);
+    text-shadow: 1px 1px 3px var(--basicColored);
+}
+
+.point {
+    line-height: 30px;
+    text-shadow: none;
+}
+
+.sec,
+.min,
+.hour {
+    position: absolute;
+    transform-origin: 50% 100%;
+    border-radius: 5px;
+}
+
+.center {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: wheat;
+    border-radius: 50%;
+}
+
+.sec {
+    height: 50%;
+    width: 5px;
+    background: var(--basicColored);
+    margin-top: -50%;
+}
+
+.min {
+    height: 40%;
+    width: 7.5px;
+    background: rgb(238, 152, 152);
+    margin-top: -40%;
+}
+
+.hour {
+    height: 30%;
+    width: 10px;
+    background: rgb(162, 162, 243);
+    margin-top: -30%;
+}
+
+.number:nth-child(1) {
+    transform: rotate(30deg);
+}
+
+.number:nth-child(2) {
+    transform: rotate(60deg);
+}
+
+.number:nth-child(3) {
+    transform: rotate(90deg);
+}
+
+.number:nth-child(4) {
+    transform: rotate(120deg);
+}
+
+.number:nth-child(5) {
+    transform: rotate(150deg);
+}
+
+.number:nth-child(6) {
+    transform: rotate(180deg);
+}
+
+.number:nth-child(7) {
+    transform: rotate(210deg);
+}
+
+.number:nth-child(8) {
+    transform: rotate(240deg);
+}
+
+.number:nth-child(9) {
+    transform: rotate(270deg);
+}
+
+.number:nth-child(10) {
+    transform: rotate(300deg);
+}
+
+.number:nth-child(11) {
+    transform: rotate(330deg);
+}
+
+.number:nth-child(12) {
+    transform: rotate(360deg);
+}
+
+.point:nth-child(13) {
+    transform: rotate(15deg);
+}
+
+.point:nth-child(14) {
+    transform: rotate(45deg);
+}
+
+.point:nth-child(15) {
+    transform: rotate(75deg);
+}
+
+.point:nth-child(16) {
+    transform: rotate(105deg);
+}
+
+.point:nth-child(17) {
+    transform: rotate(135deg);
+}
+
+.point:nth-child(18) {
+    transform: rotate(165deg);
+}
+
+.point:nth-child(19) {
+    transform: rotate(195deg);
+}
+
+.point:nth-child(20) {
+    transform: rotate(225deg);
+}
+
+.point:nth-child(21) {
+    transform: rotate(255deg);
+}
+
+.point:nth-child(22) {
+    transform: rotate(285deg);
+}
+
+.point:nth-child(23) {
+    transform: rotate(315deg);
+}
+
+.point:nth-child(24) {
+    transform: rotate(345deg);
+}
+
+.point {
+    font-size: 40px;
+    color:var(--basicColored);
 }
 
 .empower {
