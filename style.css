@@ -230,6 +230,23 @@ body {
     position: absolute;
     top: 0;
     right: -74px;
+    animation: visible 1s ease-out forwards;
+    animation-timeline: scroll(root block);
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+}
+
+@keyframes visible {
+    0% {
+        transform: scale(0.5) rotate(-5deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1) rotate(5deg);
+        opacity: 1;
+    }
 }
 
 .main-title {
@@ -289,36 +306,6 @@ body {
     background: var(--basicColored);
 }
 
-.translate-buttons {
-  width: 68px;
-  height: 30px;
-  cursor: pointer;
-  gap: 5px;
-
-  & img {
-    width: 68px;
-    height: 30px;
-  }
-}
-
-.companies {
-    display: flex;
-    flex-direction: column;
-    gap: 39px;
-}
-
-.companies-title {
-    color: #96979A;
-    display: flex;
-    margin-top: 119px;
-}
-
-.companies-imgs {
-    display: flex;
-    align-items: center;
-}
-
-
 .clock {
     font-size: 10px;
     position: relative;
@@ -328,7 +315,7 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-image: url(fone.png);
+    background: white;
     border: 10px solid var(--basicColored);
     margin: 100px;
     box-shadow: 1px 1px 3px var(--basicColored);
@@ -486,7 +473,51 @@ body {
 
 .point {
     font-size: 40px;
-    color:var(--basicColored);
+    color: var(--basicColored);
+}
+
+.translate-buttons {
+    width: 68px;
+    height: 30px;
+    cursor: pointer;
+    gap: 5px;
+
+    & img {
+        width: 68px;
+        height: 30px;
+    }
+}
+
+.companies {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+.companies-title {
+    color: #96979A;
+    display: flex;
+}
+
+.companies-imgs {
+    display: flex;
+    align-items: center;
+    animation: visible 2s ease-out forwards;
+    animation-timeline: scroll(root block);
+    margin: 0 auto;
+    width: 90%;
+}
+
+@keyframes visible {
+    0% {
+        transform: scale(0.5) rotate(-5deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1) rotate(5deg);
+        opacity: 1;
+    }
 }
 
 .empower {
@@ -545,6 +576,22 @@ body {
 
 .buyers-png {
     width: 180px;
+    animation: visible 2s ease-out forwards;
+    animation-timeline: scroll(root block);
+    margin: 0 auto;
+    width: 100%;
+}
+
+@keyframes visible {
+    0% {
+        transform: scale(0.5) rotate(-5deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1) rotate(5deg);
+        opacity: 1;
+    }
 }
 
 .buyers-agents-row {
@@ -706,6 +753,26 @@ body {
     background: #FFFFFF;
     color: #574D9C;
     margin: 28px 0;
+}
+
+.dog-png {
+    width: 100%;
+    animation: visible 2s ease-out forwards;
+    animation-timeline: scroll(root block);
+    margin: 0 auto;
+    width: 90%;
+}
+
+@keyframes visible {
+    0% {
+        transform: scale(0.5) rotate(-5deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1) rotate(5deg);
+        opacity: 1;
+    }
 }
 
 .line {
