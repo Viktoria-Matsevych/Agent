@@ -755,7 +755,7 @@ body {
 }
 
 .solutions {
-    padding: 88px 0;
+    padding: 88px 0 39px;
     color: var(--backgroundWhite);
     text-align: center;
     font-size: 51px;
@@ -767,7 +767,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin: 39px 0 88px;
 }
 
 .nav-button {
@@ -781,6 +780,7 @@ body {
     letter-spacing: 2.32px;
     text-transform: uppercase;
     color: var(--backgroundWhite);
+    margin: 0 0 88px;
 }
 
 .active {
@@ -793,4 +793,207 @@ body {
     position: relative;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.button-imgs {
+    background: var(--h4Color);
+    border: 1px solid var(--h4Color);
+
+}
+
+.solution-card {
+    position: relative;
+    background: var(--backgroundWhite);
+    width: 752px;
+    height: 643px;
+    border-radius: 12px;
+    margin-top: auto;
+}
+
+.on-card {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.logo-badge {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #7569CF;
+    border-radius: 50%;
+    top: 42px;
+    left: 42px;
+}
+
+.r-png {
+    position: absolute;
+    left: 13px;
+    top: 12px;
+}
+
+.name {
+    position: absolute;
+    width: 127px;
+    height: 29px;
+    background: #333333;
+    top: 178px;
+    left: 229px;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ECEAF8;
+}
+
+.home-won {
+    position: absolute;
+    top: 207px;
+    width: 324px;
+    height: 397px;
+    background-color: #E7ECEE45;
+    transform: translateX(32px)
+}
+
+.lines {
+    position: absolute;
+    top: 33px;
+    left: 24px;
+    border: 1px solid #C7C1F3;
+    width: 80px;
+}
+
+.HOME {
+    position: absolute;
+    top: 28px;
+    left: 110px;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+}
+
+.lane {
+    position: absolute;
+    top: 33px;
+    left: 225px;
+    border: 1px solid #C7C1F3;
+    width: 80px;
+    gap: 7px;
+}
+
+.protection {
+    position: absolute;
+    top: 84px;
+    left: 204px;
+}
+
+.layout {
+    position: absolute;
+    top: 174px;
+    left: 24px;
+    border: 1px solid #C7C1F3;
+    width: 284px;
+}
+
+.content {
+    position: absolute;
+    top: 205px;
+    left: 24px;
+    width: 45px;
+    height: 60px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.text {
+    position: absolute;
+    top: 205px;
+    left: 118px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: #636769
+}
+
+.seller {
+    position: absolute;
+    top: 297px;
+    left: 24px;
+    width: 43px;
+    height: 60px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.closing {
+    position: absolute;
+    top: 297px;
+    left: 118px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.offer {
+    position: absolute;
+    top: 151px;
+    left: 568px;
+    width: 266px;
+    height: 71px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35.2px;
+    letter-spacing: 0.16px;
+    color: #2B2B2B;
+}
+
+.first {
+    position: absolute;
+    top: 300px;
+    left: 570px;
+    width: 285px;
+    height: 90px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #636769;
+}
+
+.learn {
+    position: absolute;
+    top: 450px;
+    left: 570px;
+    border: 1px solid #7569CF;
+    border-radius: 5px;
+    background: #7569CF;
+    color: #FFFFFF;
+    width: 135px;
+    height: 54px
+}
+
+.border-line {
+    position: absolute;
+    border: 1px solid #9AA6AC;
+    width: 285px;
+    top: 532px;
+    left: 570px;
+}
+
+.book {
+    position: absolute;
+    top: 558px;
+    left: 570px;
+}
+
+.read {
+    position: absolute;
+    top: 564px;
+    left: 603px;
 }
