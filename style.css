@@ -798,7 +798,6 @@ body {
 .button-imgs {
     background: var(--h4Color);
     border: 1px solid var(--h4Color);
-
 }
 
 .solution-card {
@@ -953,8 +952,8 @@ body {
 
 .offer {
     position: absolute;
-    top: 151px;
-    left: 568px;
+    top: 155px;
+    left: 562px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

@@ -46,7 +46,22 @@ let textsUk = [
     'eXp Realty',
     'Агенти люблять нас, бо ми надаємо їхнім покупцям гроші, а не конкуруємо за комісійні.',
     'Дізнатися більше',
-    'Придбані будинки', 'Агенти', 'Купівельна спроможність'
+    'Придбані будинки', 'Агенти', 'Купівельна спроможність',
+    'Наші рішення',
+    'ПЕРЕТВОРІТЬ ПРОПОЗИЦІЮ НА ВСЕ ГОТІВКУ', 'КУПУЙТЕ, ПЕРШ НІЖ ПРОДАВАТИ', 'ЗБЕРЕГТИ ІСНУЮЧУ УГОДУ',
+    'ОРЛАНДО, ФЛОРИДА',
+    'ДОМАШНІЙ МАЙДАНЧИК ВИГРАВ З',
+    'Покупець',
+    'виграла будинок своєї мрії в\
+     ситуації з кількома пропозиціями.',
+    'Продавець',
+    'отримав гарантоване закриття без жодних непередбачених обставин.',
+    'Зверніться до всіх з пропозицією готівки',
+    'Після попереднього схвалення вашого покупця,\
+     переведіть свою купівельну спроможність на готівку,\
+     щоб спочатку зробити найвигіднішу пропозицію.',
+    'Дізнатися більше',
+    'Прочитайте історію успіху'
 ]
 
 function translateToUk() {
@@ -58,7 +73,7 @@ function translateToUk() {
 
 let textsEn = [
     'Agents', 'Homebuyers', 'Resources', 'Log In', 'Sign up now',
-    'Providing certainty on the journeyto homeownership.',
+    'Providing certainty on the journey to homeownership.',
     'Guarantee your home closes with cash-backed, contingency-free offers for buyers, sellers, their agents, and loan officers.',
     'Sign Up Now', 'Learn more',
     'FEATURED IN',
@@ -75,8 +90,26 @@ let textsEn = [
     'eXp Realty',
     'Agents love us because we empower their buyers with cash and don\'t compete for the commissions.',
     'Learn More',
-    'Homes Purchased', 'Agents', '$5 B+',
-    'Buying Power'
+    'Homes Purchased', 'Agents', 'Buying Power',
+    'Our solutions',
+    'TURN AN OFFER TO ALL CASH', 'BUY BEFORE YOU SELL', 'SAVE AN EXISTING DEAL',
+    'ORLANDO, FL',
+    'HOME WON WITH',
+    'The\
+    buyer',
+    'won her dream house in\
+    multiple-offers situation.',
+    'The\
+    seller',
+    'got a guaranteed closing\
+     with no contingencies.',
+    'Turn an offer to all\
+    cash',
+    'Once your buyer is preapproved,\
+    upgrade your buying power to cash\
+     to make your strongest offer, first',
+    'Learn more',
+    'Read the success story'
 ]
 
 function translateToEn() {
